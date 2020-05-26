@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+ background-repeat: no-repeat;
+  background-image: url("../img/floresta-amazonica-750x430.jpg");/*inserir imagem no fundo*/
+ background-position:center;
+ background-size: cover;/*PREENCHE A TELA COM IMAGEM*/
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+input { /*CONFIGURAR ESTILOS NO INPUT*/
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid black
+  font-size: 18pt;
+  text-align: center;
+  padding: 10px 20px;
+  background-color:rgba(255,255,255,0.01);
+  color:white;/*ALTERA COR DA FONTE (submit)*/
+  outline:none;
+  
+}
+div#corpo-form{
+  /*  background-color: red;*/
+  width: 420px;
+  margin: 150px auto 0px auto;
+  }
+div#corpo-form-cadastrar {
+  /*  background-color: red;*/
+  width: 420px;
+  margin: 80px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cadastrar h1 {
+  text-align: center;/*centralizar o h1*/
+  padding: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  text-align: center;/*centralizar o link*/
+  display: block;/*centralizar o link*/
+}
+a:hover{
+  text-decoration: underline;/*montra o sublinado quando passar o mouse*/
+}
+
+/*FORMATAR BOTAO SUBMITE*/
+input[type=submit]{
+  background-color:#FF0066;
+  border: none;
+  cursor: pointer;
+
+}
+::-webkit-input-placeholder{
+  color: #fff;
+}
+:-moz-placeholder{
+  color: #fff;
+}
+::-moz-placeholder{
+  color: #fff;
+}
+:-ms-input-placeholder{
+  color: #fff;
+}
